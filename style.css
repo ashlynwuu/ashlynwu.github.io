@@ -1,0 +1,208 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e9e2f8;
+}
+
+header {
+    display: flex;
+    width: 92%;
+    margin: auto;
+    height: 10vh;
+    align-items: center;
+}
+
+.logo-container,
+.nav-links {
+    display: flex;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+.logo {
+    font-weight: 500;
+    font-size: 22px;
+    margin: 5px;
+    background-image: linear-gradient(to bottom right, #88a2ff, #685ee9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav {
+    flex: 1.5;
+}
+
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link {
+    color: #3e3947;
+    text-decoration: none;
+}
+
+.presentation {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+}
+
+.introduction {
+    flex: 1;
+}
+
+.intro-text h1 {
+    font-size: 30px;
+    font-weight: 500;
+    background-image: linear-gradient(to bottom right, #88a2ff, #685ee9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.intro-text p {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #1a181d;
+}
+
+.cover {
+    flex: 1;
+}
+
+.cover img {
+    height: 60vh;
+}
+
+.about {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    min-height: 80vh;
+    margin-top: 40px;
+}
+
+.body-para {
+    flex: 1;
+}
+
+.body-para h1 {
+    font-size: 30px;
+    font-weight: 500;
+    background-image: linear-gradient(to bottom right, #88a2ff, #685ee9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.body-para p {
+    margin-top: 15px;
+    font-size: 17px;
+    color: #1a181d;
+}
+
+.div-cover {
+    flex: 1;
+    border-radius: 16px;
+}
+
+.community {
+    margin-bottom: 100px;
+}
+
+.comm-intro {
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.comm-intro h1 {
+    font-size: 30px;
+    font-weight: 500;
+    background-image: linear-gradient(to bottom right, #88a2ff, #685ee9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.comm-intro p {
+    font-size: 19px;
+    color: #3e3947;
+}
+
+.section {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.cover {
+    flex: 1;
+    margin-right: 50px;
+    width: 100%;
+    height: 100%;
+    border-radius: 20%;
+}
+
+.para {
+    flex: 1;
+}
+
+.para h2 {
+    font-size: 23px;
+    font-weight: 500;
+    background-image: linear-gradient(to bottom right, #88a2ff, #685ee9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.para h3 {
+    color: #3e3947;
+    margin-top: 3px;
+}
+
+.para p {
+    color: #3e3947;
+    font-size: 17px;
+    margin-top: 3px;
+}
+
+.contact {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-para {
+    flex: 1;
+    font-size: 18px;
+}
+
+.contact-para h1 {
+    font-size: 30px;
+    font-weight: 500;
+    background-image: linear-gradient(to bottom right, #88a2ff, #685ee9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.images {
+    margin-top: 75px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    padding: 0 50px;
+}
